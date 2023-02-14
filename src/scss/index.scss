@@ -1,0 +1,32 @@
+@import 'customBootstrap';
+@import 'fonts';
+@import 'utilities';
+
+//
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-logo;
+}

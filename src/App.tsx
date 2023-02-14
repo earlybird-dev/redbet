@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid text-bg-black">
+      <div className="min-vh-100 d-flex align-items-center justify-content-center">
+        <div className="w-50">
+          <h1 className="fw-bold text-primary text-center">REDBET</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo minus
+            possimus mollitia doloribus laboriosam cum! Culpa neque sunt aliquam
+            et asperiores nostrum dolorum earum debitis, odit repudiandae ipsam,
+            consectetur tempore.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

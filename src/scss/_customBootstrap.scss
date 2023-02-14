@@ -1,0 +1,27 @@
+// ======= CUSTOM BOOTSTRAP =======
+
+// Custom colors
+$primary: #dc1a21;
+$secondary: #1982dc;
+$light: #f8f9fa;
+$white: #ffffff;
+$black: #000000;
+$lightgray: #1b1b1b;
+
+// Import the functions and variables
+@import '../../node_modules/bootstrap/scss/_functions';
+@import '../../node_modules/bootstrap/scss/_variables';
+
+// Custom theme colors
+$custom-theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'light': $light,
+  'white': $white,
+  'black': $black,
+  'lightgray': $lightgray,
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// Import Bootstrap CSS
+@import '../../node_modules/bootstrap/scss/bootstrap';
