@@ -2,7 +2,7 @@
 
 ## Branding
 
-[![Alt text](public/logo-high-resolution.png)](https://redbet-au.web.app/)
+[![Alt text](public/logo192.png)](https://redbet-au.web.app/)
 
 - Name: **REDBET**
 - Slogan: _Bet with Luck!_
