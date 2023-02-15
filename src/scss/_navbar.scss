@@ -1,0 +1,13 @@
+.navbar-brand {
+  img {
+    width: 60px;
+  }
+}
+
+.dropdown-menu {
+  a {
+    &:hover {
+      color: red;
+    }
+  }
+}

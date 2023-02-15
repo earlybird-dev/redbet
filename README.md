@@ -32,3 +32,19 @@
   - `firebase login`
   - `firebase init`
 
+## VSCode
+
+- Live Sass Compiler
+
+```
+// In settings.json
+
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./src/css"
+    }
+  ]
+```

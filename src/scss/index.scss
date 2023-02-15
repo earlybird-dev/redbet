@@ -1,8 +1,7 @@
-@import 'customBootstrap';
-@import 'fonts';
-@import 'utilities';
-
-//
+@import "bootstrap";
+@import "fonts";
+@import "utilities";
+@import "navbar";
 
 html {
   box-sizing: border-box;
@@ -21,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: $font-body;
+  background-color: $dark;
 }
 
 h1,
