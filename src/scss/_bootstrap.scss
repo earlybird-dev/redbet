@@ -1,27 +1,33 @@
 // ======= CUSTOM BOOTSTRAP =======
+// https://getbootstrap.com/docs/5.2/customize/overview/
 
+// To customize Bootstrap, create an scss file and import the Bootstrap source stylesheet ("~bootstrap/scss/bootstrap"). Add any overrides before the imported file(s). You can reference Bootstrap's documentation for the names of the available variables.
 // Custom colors
+
+// Override default variables before the import
+// https://getbootstrap.com/docs/5.2/customize/color/
+
 $primary: #dc1a21;
 $secondary: #1982dc;
 $light: #f8f9fa;
 $white: #ffffff;
 $black: #000000;
-$lightgray: #1b1b1b;
 
-// Import the functions and variables
-@import '../../node_modules/bootstrap/scss/_functions';
-@import '../../node_modules/bootstrap/scss/_variables';
+// New variables
+$lightgray: #1b1b1b;
+$tertiary: #3fb247;
+
+// Import the functions and variables to customise theme colors
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
 
 // Custom theme colors
 $custom-theme-colors: (
-  'primary': $primary,
-  'secondary': $secondary,
-  'light': $light,
-  'white': $white,
-  'black': $black,
-  'lightgray': $lightgray,
+  "lightgray": $lightgray,
+  "tertiary": $tertiary,
 );
+
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 // Import Bootstrap CSS
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
