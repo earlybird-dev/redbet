@@ -1,13 +1,50 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import SportsPage from "./components/SportsPage";
+import SingleSportPage from "./components/SingleSportPage";
+import SingleMatchPage from "./components/SingleMatchPage";
+import NotFound from "./components/NotFound";
+
+function MainLayout(props: any) {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      {props.content}
+    </>
+  );
+}
+
+function MatchLayout(props: any) {
+  return (
+    <>
+      <Navbar />
+      <SingleMatchPage />
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="container-fluid text-bg-dark">
-      <Navbar />
-      <Hero />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<MainLayout content={<Home />} />} />
+        <Route path="/sports">
+          <Route index element={<MainLayout content={<SportsPage />} />} />
+          <Route
+            path=":key"
+            element={<MainLayout content={<SingleSportPage />} />}
+          />
+        </Route>
+        <Route path="/match/:key" element={<MatchLayout />} />
+
+        <Route path="*" element={<MainLayout content={<NotFound />} />} />
+      </Routes>
+    </>
   );
 }
 

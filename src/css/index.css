@@ -10996,8 +10996,11 @@ textarea.form-control-lg {
   width: 60px;
 }
 
-.dropdown-menu a:hover {
-  color: red;
+.navbar-nav a:hover {
+  color: #dc1a21;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #dc1a21;
 }
 
 html {

@@ -1,6 +1,6 @@
 import React from "react";
 
-const logo = require("../assets/logos/logo512.png");
+const logo = require("../assets/logo/logo512.png");
 
 const Navbar = () => {
   return (
