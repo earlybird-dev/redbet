@@ -1,5 +1,13 @@
 // Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
-$font-body: "Source Sans Pro", sans-serif;
+// $font-body: "Source Sans Pro", sans-serif;
+$font-body: "Roboto Condensed", sans-serif;
 $font-logo: "Goldman", cursive;
+
+$fs-12: 0.75rem;
+$fs-16: 1rem;
+$fs-18: 1.125rem;
+$fs-24: 1.5rem;
+$fs-32: 2rem;
