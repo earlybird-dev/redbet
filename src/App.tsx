@@ -41,7 +41,6 @@ function App() {
           />
         </Route>
         <Route path="/match/:key" element={<MatchLayout />} />
-
         <Route path="*" element={<MainLayout content={<NotFound />} />} />
       </Routes>
     </>
