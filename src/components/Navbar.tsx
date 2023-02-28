@@ -1,25 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
 const logo = require("../assets/logo/logo512.png");
 
 const Navbar = () => {
+  const [showButtons, setShowButton] = useState(true);
+
+  const onClickNavbarToggler = () => {
+    setShowButton(!showButtons);
+  };
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark">
-      <div className="container">
-        <a className="navbar-brand " href="/#">
-          <img src={logo} alt="logo512" />
-        </a>
+    <nav className="navbar navbar-expand-sm navbar-dark bg-black p-0">
+      <div className="container-fluid d-flex ">
         <button
-          className="navbar-toggler d-lg-none"
+          className="navbar-toggler d-lg-none p-0 me-2 border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapsibleNavId"
           aria-controls="collapsibleNavId"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={onClickNavbarToggler}
         >
           <span className="navbar-toggler-icon" />
         </button>
+        <a className="navbar-brand " href="/#">
+          <img src={logo} alt="logo512" />
+        </a>
         <div className="collapse navbar-collapse" id="collapsibleNavId">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
@@ -56,6 +62,24 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
+        </div>
+        <div
+          className={
+            showButtons
+              ? "navbar-button-wrapper d-flex gap-2  justify-content-end flex-fill"
+              : "navbar-button-wrapper d-none"
+          }
+        >
+          <button className="logInBtn btn btn-sm border-0 py-1 text-white">
+            LOG IN
+          </button>
+          <button className="signUpBtn btn btn-sm border-0 py-1 btn-primary ">
+            SIGN UP
+          </button>
+          <button className="myBetBtn btn btn-sm border-0 py-1 btn-dark d-none d-md-flex flex-column align-items-center justify-content-center">
+            <span>MY BETS</span>
+            <i className="fa-solid fa-circle-plus text-primary"></i>
+          </button>
         </div>
       </div>
     </nav>
