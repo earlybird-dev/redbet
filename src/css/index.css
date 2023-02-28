@@ -11003,6 +11003,23 @@ textarea.form-control-lg {
   background-color: #dc1a21;
 }
 
+.navbar-button-wrapper button {
+  font-size: 0.75rem !important;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.0357143rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: auto;
+}
+.navbar-button-wrapper .signUpBtn {
+  padding: 0.642857rem 1.07143rem 0.571429rem;
+  border-radius: 1.28571rem;
+}
+.navbar-button-wrapper .myBetBtn {
+  font-size: 0.7rem;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
