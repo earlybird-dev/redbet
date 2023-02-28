@@ -1,0 +1,12 @@
+.carousel-item {
+  img {
+  }
+}
+
+.carousel-indicators {
+  button {
+    &.active {
+      background-color: $primary;
+    }
+  }
+}
