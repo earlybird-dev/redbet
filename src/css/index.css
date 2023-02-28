@@ -11020,8 +11020,28 @@ textarea.form-control-lg {
 .navbar-button-wrapper .myBetBtn {
   font-size: 0.7rem;
 }
+
 .carousel-indicators button.active {
   background-color: #dc1a21;
+}
+
+.modal-dialog {
+  padding: 2.5rem 4.28571rem;
+}
+
+.modal-footer {
+  margin-top: 2.5rem;
+  padding: 0px 2.85714rem;
+}
+.modal-footer button {
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.0357143rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: auto;
+  padding: 0.642857rem 1.07143rem 0.571429rem;
+  border-radius: 1.28571rem;
 }
 
 html {
