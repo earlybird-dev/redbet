@@ -1,4 +1,5 @@
 import React from "react";
+import HeroModal from "./hero/HeroModal";
 import TermsAndConditions from "./hero/TermsAndConditions";
 
 interface Carousel {
@@ -56,6 +57,7 @@ const Hero = (props: any) => {
           ></button>
         </div>
       </div>
+      <HeroModal title="Title 1" />
       <TermsAndConditions />
     </section>
   );
