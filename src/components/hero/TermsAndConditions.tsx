@@ -28,82 +28,76 @@ const TermsAndConditions = () => {
         </button>
       </div>
       <div className="collapse" id="collapseTermsAndConditions">
-        <div className="card card-body p-0 text-lightgray bg-transparent">
-          <ol className="m-0">
-            <li className="f1ss895o">
-              Applies to the first 3+ leg NBA multi bet you place on NBA Head To
-              Head markets for games scheduled and completed on the same day on
-              Tuesday 28/02/2023, and Thursday 02/03/2023 only (Eligible Bet).
-              Available once per eligible day only.
+        <div className="card card-body p-0 text-lightgray bg-transparent border-0">
+          <ol className="m-0 p-0">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis consectetur eaque sed maxime, eveniet voluptate
+              repellendus quos sunt ex id.
             </li>
-            <li className="f1ss895o">
-              To qualify for a Bonus Bet refund, your Eligible Bet must comprise
-              3 or more Head To Head market selections on NBA matches, have a
-              minimum final price of $3.00, and the Eligible Bet must lose by
-              only one leg.
+            <li>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+              tempore quisquam ullam illum debitis odio labore blanditiis.
+              Adipisci fuga ex, labore officia beatae temporibus animi aperiam
+              at rerum id aliquid asperiores debitis soluta, illum ut qui.
             </li>
-            <li className="f1ss895o">
-              Maximum one refund of stake equivalent up to $50 in Bonus Bets per
-              day on Tuesday 28/02/2023 and Thursday 02/03/2023 AEDT
-              (inclusive).
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+              amet autem. Ratione temporibus qui inventore facere.
             </li>
-            <li className="f1ss895o">
-              A schedule of NBA games is available here{"{"}" "{"}"}
-              <a
-                className="f12inwbn"
-                data-test="link"
-                href="https://au.global.nba.com/schedule/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://au.global.nba.com/schedule/
-              </a>
-              .
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus officia aliquam distinctio reiciendis animi id
+              optio dicta minima ullam sunt quasi neque quis, aspernatur
+              repellat odit, nulla accusamus, aut eum commodi architecto
+              molestiae nobis quibusdam soluta libero.
             </li>
-            <li className="f1ss895o">
-              If your Eligible Bet wins or otherwise does not qualify for a
-              Bonus Bet refund, this promotion will not be available to you for
-              any other 3+ leg NBA Head To Head multi bets placed that day.
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              temporibus minus, quas sed, ratione veniam aspernatur, incidunt
+              dicta nisi quibusdam magni explicabo optio quisquam maiores
+              accusantium asperiores eum consequatur. Ea aliquam dolore
+              dignissimos culpa.
             </li>
-            <li className="f1ss895o">
-              Cash bets only. Not applicable to bets placed using bonus bets or
-              cashed out bets.
+            <li>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              ad rem cumque, illum commodi dicta, tempore possimus reiciendis
+              debitis sunt saepe veritatis.
             </li>
-            <li className="f1ss895o">
-              Bets placed using Booster are eligible.
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, quam.
             </li>
-            <li className="f1ss895o">
-              PointsBet will endeavour to process Bonus Bets within 24 hours of
-              the completion of the event.
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+              assumenda facilis fugiat nam omnis rerum, labore autem praesentium
+              dolorem dicta.
             </li>
-            <li className="f1ss895o">
-              Bonus Bets awarded to client accounts expire after 7 days.
+            <li>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reiciendis necessitatibus enim id.
             </li>
-            <li className="f1ss895o">
-              Full PointsBet terms &amp; conditions apply and are available at
-              {"{"}" "{"}"}
-              <a
-                className="f12inwbn"
-                data-test="link"
-                href="https://pointsbet.com.au/terms-and-conditions"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://pointsbet.com.au/terms-and-conditions
-              </a>
-              .
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, at
+              placeat. Consequatur, iure eligendi nulla itaque similique
+              consequuntur ut. Accusantium repellat labore libero nostrum
+              suscipit deserunt recusandae, magnam excepturi fugit officia.
+              Quaerat, fugiat maiores.
             </li>
-            <li className="f1ss895o">
-              Only available to customers that comply with the PointsBet terms
-              and conditions including those specifically related to promotional
-              offers and Bonus Bets. If we believe a customer has not complied
-              with the terms and conditions, PointsBet reserves the right to
-              void or cancel relevant bets.
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              autem quo provident aliquam. Iusto maxime magni, itaque vitae rem,
+              veniam, quas quaerat facere nostrum quae esse sequi. Corporis
+              libero expedita nisi reiciendis at similique quasi veniam dolores
+              corrupti ratione. Numquam veniam fuga provident. Placeat quis
+              atque rem. Iste repellat in quos soluta quia obcaecati tempora.
             </li>
-            <li className="f1ss895o">
-              PointsBet reserves the right at any time to exclude any
-              customer(s) from Money Back promotions, or to amend or cease
-              offering this promotion altogether.
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              voluptatum nisi quos ratione magnam aliquid, sint exercitationem
+              molestias minus obcaecati reiciendis reprehenderit ut. Nihil
+              libero ipsam cupiditate iste consectetur voluptas, voluptatem
+              repudiandae ducimus quis.
             </li>
           </ol>
         </div>

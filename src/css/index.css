@@ -31,7 +31,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-lightgray: #c2c2c2;
+  --bs-lightgray: #9d9d9d;
   --bs-tertiary: #3fb247;
   --bs-primary: #dc1a21;
   --bs-secondary: #1982dc;
@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #1b1b1b;
-  --bs-lightgray-rgb: 194, 194, 194;
+  --bs-lightgray-rgb: 157, 157, 157;
   --bs-tertiary-rgb: 63, 178, 71;
   --bs-primary-rgb: 220, 26, 33;
   --bs-secondary-rgb: 25, 130, 220;
@@ -2846,19 +2846,19 @@ textarea.form-control-lg {
 
 .btn-lightgray {
   --bs-btn-color: #000000;
-  --bs-btn-bg: #c2c2c2;
-  --bs-btn-border-color: #c2c2c2;
+  --bs-btn-bg: #9d9d9d;
+  --bs-btn-border-color: #9d9d9d;
   --bs-btn-hover-color: #000000;
-  --bs-btn-hover-bg: #cbcbcb;
-  --bs-btn-hover-border-color: #c8c8c8;
-  --bs-btn-focus-shadow-rgb: 165, 165, 165;
+  --bs-btn-hover-bg: #acacac;
+  --bs-btn-hover-border-color: #a7a7a7;
+  --bs-btn-focus-shadow-rgb: 133, 133, 133;
   --bs-btn-active-color: #000000;
-  --bs-btn-active-bg: #cecece;
-  --bs-btn-active-border-color: #c8c8c8;
+  --bs-btn-active-bg: #b1b1b1;
+  --bs-btn-active-border-color: #a7a7a7;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000000;
-  --bs-btn-disabled-bg: #c2c2c2;
-  --bs-btn-disabled-border-color: #c2c2c2;
+  --bs-btn-disabled-bg: #9d9d9d;
+  --bs-btn-disabled-border-color: #9d9d9d;
 }
 
 .btn-tertiary {
@@ -3015,19 +3015,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-lightgray {
-  --bs-btn-color: #c2c2c2;
-  --bs-btn-border-color: #c2c2c2;
+  --bs-btn-color: #9d9d9d;
+  --bs-btn-border-color: #9d9d9d;
   --bs-btn-hover-color: #000000;
-  --bs-btn-hover-bg: #c2c2c2;
-  --bs-btn-hover-border-color: #c2c2c2;
-  --bs-btn-focus-shadow-rgb: 194, 194, 194;
+  --bs-btn-hover-bg: #9d9d9d;
+  --bs-btn-hover-border-color: #9d9d9d;
+  --bs-btn-focus-shadow-rgb: 157, 157, 157;
   --bs-btn-active-color: #000000;
-  --bs-btn-active-bg: #c2c2c2;
-  --bs-btn-active-border-color: #c2c2c2;
+  --bs-btn-active-bg: #9d9d9d;
+  --bs-btn-active-border-color: #9d9d9d;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #c2c2c2;
+  --bs-btn-disabled-color: #9d9d9d;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #c2c2c2;
+  --bs-btn-disabled-border-color: #9d9d9d;
   --bs-gradient: none;
 }
 
@@ -4725,12 +4725,12 @@ textarea.form-control-lg {
 }
 
 .alert-lightgray {
-  --bs-alert-color: #4e4e4e;
-  --bs-alert-bg: #f3f3f3;
-  --bs-alert-border-color: #ededed;
+  --bs-alert-color: #5e5e5e;
+  --bs-alert-bg: #ebebeb;
+  --bs-alert-border-color: #e2e2e2;
 }
 .alert-lightgray .alert-link {
-  color: #3e3e3e;
+  color: #4b4b4b;
 }
 
 .alert-tertiary {
@@ -5107,17 +5107,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-lightgray {
-  color: #4e4e4e;
-  background-color: #f3f3f3;
+  color: #5e5e5e;
+  background-color: #ebebeb;
 }
 .list-group-item-lightgray.list-group-item-action:hover, .list-group-item-lightgray.list-group-item-action:focus {
-  color: #4e4e4e;
-  background-color: #dbdbdb;
+  color: #5e5e5e;
+  background-color: #d4d4d4;
 }
 .list-group-item-lightgray.list-group-item-action.active {
   color: #ffffff;
-  background-color: #4e4e4e;
-  border-color: #4e4e4e;
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
 }
 
 .list-group-item-tertiary {
@@ -6771,7 +6771,7 @@ textarea.form-control-lg {
 
 .text-bg-lightgray {
   color: #000000 !important;
-  background-color: RGBA(194, 194, 194, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(157, 157, 157, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-tertiary {
@@ -6820,10 +6820,10 @@ textarea.form-control-lg {
 }
 
 .link-lightgray {
-  color: #c2c2c2 !important;
+  color: #9d9d9d !important;
 }
 .link-lightgray:hover, .link-lightgray:focus {
-  color: #cecece !important;
+  color: #b1b1b1 !important;
 }
 
 .link-tertiary {
@@ -11027,6 +11027,24 @@ textarea.form-control-lg {
 
 .modal-dialog {
   padding: 2.5rem 4.28571rem;
+}
+.modal-dialog ol {
+  list-style-position: inside !important;
+  font-size: 0.75rem;
+}
+.modal-dialog ol li {
+  margin-bottom: 5px;
+}
+
+.modal-body::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 0.5rem;
 }
 
 .modal-footer {

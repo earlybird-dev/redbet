@@ -5,22 +5,14 @@ const HeroModal = (props: any) => {
   return (
     <>
       <div>
-        <button
-          type="button"
-          className="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          Open Modal
-        </button>
         <div
-          className="modal fade "
-          id="exampleModal"
+          className="modal fade bg-light bg-opacity-25"
+          id={props.id}
           tabIndex={-1}
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg bg-black rounded-3">
             <div className="modal-content text-white bg-black border-0">
               <div className="modal-header border-0">
                 <h1
@@ -38,11 +30,11 @@ const HeroModal = (props: any) => {
               </div>
               <div className="modal-body border-0">
                 <img
-                  src="/images/HERO-1-1.jpg"
+                  src={props.src}
                   className="d-block w-100 mb-5"
                   alt="..."
                 ></img>
-                <div>
+                <div className="text-lightgray">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
                   nam quas in culpa dicta dignissimos quae modi dolor pariatur
                   doloribus assumenda, magnam architecto ipsam quibusdam.
