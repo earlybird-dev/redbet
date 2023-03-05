@@ -1,0 +1,46 @@
+// Custom mixin
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin scroll-btn {
+  padding-left: 1.14286rem;
+  padding-right: 0.714286rem;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: auto;
+  // width: 3rem;
+  z-index: 1;
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  position: relative;
+}
+
+@mixin scroll-btn-before {
+  bottom: 0px;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  width: 4.71429rem;
+  z-index: -1;
+}
+
+.dot {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.285714rem;
+  margin: 0px 0.5rem;
+  position: relative;
+  top: -0.142857rem;
+  width: 0.285714rem;
+}

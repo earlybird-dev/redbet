@@ -1,8 +1,8 @@
 export const InfoIcon = () => {
   return (
     <svg
-      width="18"
-      height="18"
+      width="14"
+      height="14"
       className=""
       viewBox="0 -64 1024 1024"
       xmlns="http://www.w3.org/2000/svg"

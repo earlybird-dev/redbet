@@ -1,5 +1,8 @@
 .carousel-item {
-  img {
+  button {
+    &:focus {
+      outline: none;
+    }
   }
 }
 
@@ -13,12 +16,21 @@
 
 .modal-dialog {
   padding: 2.5rem 4.28571rem;
+  @include media-breakpoint-down(md) {
+    padding: 0.571429rem 1.71429rem 2.71429rem;
+  }
   ol {
     list-style-position: inside !important;
     font-size: $fs-12;
     li {
       margin-bottom: 5px;
     }
+  }
+}
+
+.modal-header {
+  button {
+    color: $lightgray !important;
   }
 }
 

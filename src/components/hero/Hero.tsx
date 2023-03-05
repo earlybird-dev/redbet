@@ -1,6 +1,6 @@
 import React from "react";
-import HeroModal from "./hero/HeroModal";
-import TermsAndConditions from "./hero/TermsAndConditions";
+import HeroModal from "./HeroModal";
+import TermsAndConditions from "./TermsAndConditions";
 
 interface Carousel {
   id: string;

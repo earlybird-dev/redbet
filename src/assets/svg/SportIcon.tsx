@@ -1,8 +1,8 @@
 export const SportIcon = () => {
   return (
     <svg
-      width="18"
-      height="18"
+      width="16"
+      height="16"
       className=""
       viewBox="0 -64 1024 1024"
       xmlns="http://www.w3.org/2000/svg"

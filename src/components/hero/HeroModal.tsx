@@ -14,19 +14,21 @@ const HeroModal = (props: any) => {
         >
           <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg bg-black rounded-3">
             <div className="modal-content text-white bg-black border-0">
-              <div className="modal-header border-0">
+              <div className="modal-header border-0 position-relative">
                 <h1
-                  className="modal-title fs-5 w-100 text-center"
+                  className="modal-title fs-4 w-100 text-center"
                   id="exampleModalLabel"
                 >
                   {props.title}
                 </h1>
                 <button
                   type="button"
-                  className="btn-close"
+                  className="position-absolute end-0 btn-close d-flex align-items-center justify-content-center"
                   data-bs-dismiss="modal"
                   aria-label="Close"
-                />
+                >
+                  <i className="fa-sharp fa-solid fa-xmark fs-4"></i>
+                </button>
               </div>
               <div className="modal-body border-0">
                 <img

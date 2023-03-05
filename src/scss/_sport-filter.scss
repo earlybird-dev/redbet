@@ -1,0 +1,59 @@
+#sport-filter {
+  #sport-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  .sport-btn {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    transition: background 0.1s ease 0s, color 0.1s ease 0s, border 0.1s ease 0s;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+    border-radius: 1.21429rem;
+    font-size: 0.785714rem;
+    font-style: italic;
+    font-weight: 600;
+    height: 2.42857rem;
+    letter-spacing: 0.0357143rem;
+    padding-left: 1.28571rem;
+    padding-right: 1.28571rem;
+    text-transform: uppercase;
+  }
+
+  .selected-sport {
+    background: rgba(237, 27, 66, 0.4);
+    border: 1px solid rgba(237, 27, 66, 0.5);
+    color: rgb(255, 255, 255);
+  }
+
+  .scroll-btn-right {
+    @include scroll-btn;
+
+    &:before {
+      @include scroll-btn-before;
+      background-image: linear-gradient(to left, $black, transparent);
+      right: 0px;
+    }
+  }
+  .scroll-btn-left {
+    @include scroll-btn;
+
+    &:before {
+      @include scroll-btn-before;
+      background-image: linear-gradient(to right, $black, transparent);
+      left: 0px;
+    }
+  }
+}

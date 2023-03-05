@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import Hero from "./components/Hero";
+import Hero from "./components/hero/Hero";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Home from "./components/home/Home";
 import SportsPage from "./components/SportsPage";
 import SingleSportPage from "./components/SingleSportPage";
 import SingleMatchPage from "./components/SingleMatchPage";
